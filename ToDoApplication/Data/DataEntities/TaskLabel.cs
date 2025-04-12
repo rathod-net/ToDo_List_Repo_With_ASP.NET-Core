@@ -14,6 +14,5 @@ namespace Data.DataEntities
         public ICollection<ToDoTaskLabel> TaskLabels { get; set; }
     }
 
-    
 
 }
