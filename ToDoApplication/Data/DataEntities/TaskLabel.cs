@@ -13,14 +13,4 @@ namespace Data.DataEntities
 
         public ICollection<ToDoTaskLabel> TaskLabels { get; set; }
     }
-
-    public class ToDoTaskLabel
-    {
-        public Guid TaskId { get; set; }
-        public ToDoTask Task { get; set; }
-
-        public Guid TaskLabelId { get; set; }
-        public TaskLabel TaskLabel { get; set; }
-    }
-
 }
